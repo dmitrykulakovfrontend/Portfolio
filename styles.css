@@ -1,6 +1,225 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 0;
-  padding: 0;
   height: 100%;
   width: 100%;
+  /* pt was in template */
+  font-size: 17pt;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+.page-header {
+  background-color: #222629;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  color: white;
+}
+.sticky-container {
+  position: fixed;
+  padding: 1em;
+  width: 300px;
+}
+.personal-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.personal-card__avatar {
+  border-radius: 50%;
+}
+.personal-card__info {
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.personal-card__name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1em;
+}
+.personal-card__current-job {
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.25em;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+.page-nav {
+  margin-bottom: 2em;
+}
+.page-nav__list {
+  list-style: none;
+}
+.page-nav__list-item {
+  margin-top: 2em;
+}
+.page-nav__list-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.page-nav__list-link:hover {
+  color: #e27689;
+  transition: 300ms;
+}
+.fa-solid {
+}
+.page-nav__list-item:hover {
+}
+.fa-house-chimney {
+}
+.page-nav__list-item-icon {
+  font-size: 0.8em;
+}
+.page-nav__list-item-icon:hover {
+}
+.page-nav__list-item-name {
+  font-size: 0.8em;
+}
+.fa-table {
+}
+.fa-user {
+}
+.fa-envelope {
+}
+.social-nav {
+}
+.social__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+.social__list-item {
+}
+.social__list-link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  transition: 300ms;
+}
+.social__list-link:hover {
+  color: #fff;
+}
+.social__list-item-name {
+  visibility: hidden;
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+.twitter {
+}
+.linkedin {
+}
+.github {
+}
+.angellist {
+}
+.mail {
+}
+.page {
+}
+.page-prolog {
+  background-image: url(./imgs/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 5em 0;
+}
+.highlight {
+  color: white;
+}
+.page-prolog__title {
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.page-prolog__description {
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.button {
+  border-radius: 0.35em;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75em 2.5em;
+  background-color: #8ebebc;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: -1px;
+}
+.page-prolog__button {
+  margin: 1em auto 5em auto;
+}
+.page-projects {
+}
+.page-projects__title {
+}
+.page-projects__description {
+}
+.page-projects__grid {
+}
+.page-projects__project-card {
+}
+.page-projects__project-image {
+}
+.page-projects__project-name {
+}
+.page-projects__project-description {
+}
+.page-projects__visit-button {
+}
+.page-about {
+}
+.page-about__title {
+}
+.page-about__description {
+}
+.page-contact {
+}
+.page-contact__title {
+}
+.page-contact__list {
+}
+.page-contact__list-item {
+}
+.page-footer {
+  background-color: #dce3e2;
+}
+.page-footer__copyright {
+}
+.page-footer__design {
 }
