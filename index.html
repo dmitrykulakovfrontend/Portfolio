@@ -9,18 +9,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./styles.min.css"> -->
   <link rel="stylesheet" href="./styles.css">
   <script src="https://kit.fontawesome.com/6757e709c8.js" crossorigin="anonymous"></script>
   <script src="./index.js" defer></script>
 </head>
 
 <body>
-  <div class="`container">
-    <button class="menu-button"><span class="hidden">Menu</span><img src="./imgs/menu-icon.svg"></button>
+  <div class="container">
+    <button class="menu-button"><span class="hidden">Menu</span><img src="./imgs/menu-icon.svg" width="30px" height="30px" alt="Menu icon"></button>
     <header class="page-header">
       <div class="sticky-container">
         <div class="personal-card">
-          <img src="./imgs/avatar.jpg" alt="avatar icon" class="personal-card__avatar" width="50px" height="50px">
+          <img src="./imgs/avatar.jpg" alt="avatar icon" class="personal-card__avatar" width="50px" height="50px" alt="Avatar icon">
           <div class="personal-card__info">
             <h1 class="personal-card__name">Dmitry Kulakov</h1>
             <span class="personal-card__current-job">100Devs Software Engineer</span>
@@ -59,29 +60,24 @@
           <nav class="social-nav" aria-label="socials">
             <ul class="social__list">
               <li class="social__list-item">
-                <a href="https://twitter.com/AtomEistee" target="_blank" class="social__list-link fa-brands fa-twitter">
-                  <span class="social__list-item-name">Twitter</span>
+                <a href="https://twitter.com/AtomEistee" target="_blank" aria-label="Twitter" class="social__list-link fa-brands fa-twitter">
                 </a>
               </li>
               <li class="social__list-item">
-                <a href="https://www.linkedin.com/in/dmitrykulakovfrontend/" target="_blank"
+                <a href="https://www.linkedin.com/in/dmitrykulakovfrontend/" target="_blank" aria-label="LinkedIn"
                   class="social__list-link fa-brands fa-linkedin">
-                  <span class="social__list-item-name">LinkedIn</span>
                 </a>
               </li>
               <li class="social__list-item">
-                <a href="https://github.com/dmitrykulakovfrontend" target="_blank" class="social__list-link fa-brands fa-github">
-                  <span class="social__list-item-name">Github</span>
+                <a href="https://github.com/dmitrykulakovfrontend" target="_blank" aria-label="Github" class="social__list-link fa-brands fa-github">
                 </a>
               </li>
               <li class="social__list-item">
-                <a href="https://angel.co/u/dmitrykulakovfrontend" target="_blank" class="social__list-link fa-brands fa-angellist">
-                  <span class="social__list-item-name">Angellist</span>
+                <a href="https://angel.co/u/dmitrykulakovfrontend" target="_blank" aria-label="Angellist" class="social__list-link fa-brands fa-angellist">
                 </a>
               </li>
               <li class="social__list-item">
-                <a href="mailto:atomeistee@gmail.com" class="social__list-link fa-solid fa-at">
-                  <span class="social__list-item-name">Mail</span>
+                <a href="mailto:atomeistee@gmail.com" aria-label="Mail" class="social__list-link fa-solid fa-at">
                 </a>
               </li>
             </ul>
@@ -112,7 +108,7 @@
         </p>
         <div class="page-projects__grid">
           <div class="page-projects__project-card">
-            <img class="page-projects__project-image" src="./gifs/PaladinsData-example.gif">
+            <img class="page-projects__project-image" src="./gifs/PaladinsData-example.gif" width="100%" height="100%" alt="Paladins Data gif example">
             <h2 class="title page-projects__project-name">Paladins Data</h2>
             <p class="description page-projects__project-description">This website allows people to look at their in game data. Was
               created to
@@ -125,7 +121,7 @@
             <a class="button page-projects__visit-button" target="_blank" href="https://paladinsdata.herokuapp.com/">Visit</a>
           </div>
           <div class="page-projects__project-card">
-            <img class="page-projects__project-image" src="./gifs/TodoDaily-example.gif">
+            <img class="page-projects__project-image" src="./gifs/TodoDaily-example.gif" width="100%" height="100%" alt="Todo Daily gif example">
             <h2 class="title page-projects__project-name">Todo Daily</h2>
             <p class="description page-projects__project-description">Simple to-do app with all CRUD functionality
               Except usual abilities like create, read, update, delete tasks, people can also write tasks for future
