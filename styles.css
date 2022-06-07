@@ -7,24 +7,21 @@
 
 html {
   scroll-behavior: smooth;
-  cursor: url(imgs/customdefault.cur), default !important;
+  cursor: url(imgs/customdefault.cur), default;
 }
 
 body {
   height: 100%;
   width: 100%;
-  /* pt was in template */
-  /* font-size: 17pt; */
-  /* ~22.5px */
   font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
-  cursor: url(imgs/custompointer.cur), pointer !important;
+  cursor: url(imgs/custompointer.cur), pointer;
 }
 
 button {
-  cursor: url(imgs/custompointer.cur), pointer !important;
+  cursor: url(imgs/custompointer.cur), pointer;
 }
 
 @media screen and (max-width: 75rem) {
