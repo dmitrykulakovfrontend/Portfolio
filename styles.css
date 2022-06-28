@@ -378,6 +378,10 @@ button {
   line-height: 2.5rem;
   padding: 22.5px;
 }
+.page-projects__project-stack {
+  padding: 22.5px 0 0 0;
+  font-weight: bold;
+}
 .page-projects__project-description {
   padding: 22.5px;
   font-size: 1.5rem;
